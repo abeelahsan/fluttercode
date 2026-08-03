@@ -1,5 +1,5 @@
 # flutter code:
-import 'package:flutter/material.dart';   // ✅ Missing import
+import 'package:flutter/material.dart';  
 
 void main() {
   runApp(const MyApp());
@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(                 // ✅ Removed const (optional for beginners)
-      debugShowCheckedModeBanner: false, // ✅ Optional
+    return MaterialApp(                 
+      debugShowCheckedModeBanner: false, 
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("cubic page"), // ✅ const added
+          title: const Text("cubic page"), 
           backgroundColor: Colors.blue,
         ),
         body: Center(
